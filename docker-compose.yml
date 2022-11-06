@@ -4,6 +4,10 @@ services:
     build: ./api
     ports:
       - "8000:8000"
+
+ALLOWED HOSTS ['*']
+
+        
   web:
     build: ./frontend
     ports:
